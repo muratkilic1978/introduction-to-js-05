@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Introduktion to JS</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="page">
+        <article class="top-article">
+            <h1 class="heading-one-title">Min A-Kasse</h1>
+            <p class="subtext">Få Danmarks bedste a-kasse med nem adgang til personlig og professionel rådgivning til hele dit arbejdsliv.</p>
+           <form onsubmit="evaluateEfterloen()" name="myForm" class="was-validated"> 
+              <h2 class="form-heading-two-title">Find ud og om du kan gå efterløn.</h2>
+               <div class="form-group">
+                <label class="inputLabel" for="firstname">Fornavn:</label>
+                <input type="text" class="form-control" id="firstname" placeholder="Indtast dit fornavn" name="firstname" required>
+                <div class="valid-feedback">Gyldigt.</div>
+                <div class="invalid-feedback">Vær venlig at udfylde feltet.</div>
+              </div>
+              <div class="form-group">
+                <label class="inputLabel" for="lastname">Efternavn:</label>
+                <input type="text" class="form-control" id="lastname" placeholder="Indtast dit Efternavn" name="lastname" required>
+                <div class="valid-feedback">Gyldigt.</div>
+                <div class="invalid-feedback">Vær venlig at udfylde feltet.</div>
+              </div>
+              <div class="form-group">
+                <label class="inputLabel" for="birthyear">Indtast fødselsår:</label>
+                <input type="number" class="form-control" id="birthyear" placeholder="Indtast det årstal du er født f.eks. 1980" name="birthyear" required>
+                <div class="valid-feedback">Gyldigt.</div>
+                <div class="invalid-feedback">Vær venlig at udfylde feltet.</div>
+              </div>
+              <div class="form-group">
+                <label class="inputLabel" for="yearsofmembership">Hvor mange år har du været medlem af en A-kasse?</label>
+                <select class="form-control" id="yearsofmembership" name="yearsofmembership" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                    <option value="32">32</option>
+                    <option value="33">33</option>
+                  </select>
+                    
+              </div>
+            
+              <button class="btn btn-success" id="validateBtn">Efterlønstjeck</button><!---- END button --->
+            </form><!--- END form --->
+       </article><!--- END top-aticle --->
+       <article class="bottom-article">
+           <h3 class="answer"></h3>
+       </article><!--- END bottom-article" --->
+    </section><!---END page --->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+/*
+Murat Kilic
+2020-23-01
+*/
+
+* {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e3e1df;
+}
+
+h1.heading-one-title {
+    color: #006d8d;
+    font-size: 3.0rem;
+}
+
+.top-article, .middle-article, .bottom-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2.form-heading-two-title {
+    font-size: 2.5rem;
+    color: #006d8d;
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h3.answer {
+    font-size: 1.7rem;
+    color: #006d8d;
+    margin-top: 3rem;
+}
+
+p.subtext {
+    max-width: 66rem;
+    padding-bottom: 2.4rem;
+    font-size: 2.3rem;
+    color: #0e4954;
+}
+
+
+
+.btn {
+    font-size: 1.5rem;
+   
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #61c642;
+    width: 66.5rem;
+    height: 4.6rem;
+    border: 1px solid black;
+    
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #a3c642;
+    width: 66.5rem;
+    height: 4.6rem;
+    border: 1px solid black;
+    
+}
+
+
+label.inputLabel {
+    font-size: 1.7rem;
+    color: #0e4954;
+}
+
+div.valid-feedback, div.invalid-feedback {
+    font-size: 1.6rem;
+}
+
+.form-control {
+    font-size: 1.6rem;
+}
+
+.answer {
+    max-width: 63rem;
+}
+
+ 
+#yearsofmembership {
+    margin-bottom: 4rem;
+}
